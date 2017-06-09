@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCatalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Catalog>
+    <Id>1</Id>
+    <Name>WebApp</Name>
+    <SrcProjectFile>E:\Work\WebApp\WebApp.csproj</SrcProjectFile>
+    <SrcFolder>E:\Work\发布\WebApp</SrcFolder>
+    <OutFolder>E:\Work\发布\WebApp_copy</OutFolder>
+    <LastPublishTime>2016-06-01T00:00:00.0000001+08:00</LastPublishTime>
+  </Catalog>
+
+</ArrayOfCatalog>

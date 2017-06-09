@@ -1,0 +1,5 @@
+*.suo
+/.vs
+/*/bin
+/*/obj
+/src/DefaultCatalog.xh.xml
