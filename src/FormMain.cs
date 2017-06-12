@@ -15,6 +15,8 @@ namespace Tup.WebPublish
 
         public FormMain()
         {
+            this.Font = SystemInformation.MenuFont;
+
             InitializeComponent();
         }
 
@@ -57,7 +59,7 @@ namespace Tup.WebPublish
                             string.Format(" {0} {1}", catalog.SrcProjectFile, catalog.SrcFolder),
                             msg => Msg(msg));
                         buildRes.Wait();
-                        Msg("编译项目-结束-MSG:{0}...", buildRes.Result);   
+                        Msg("编译项目-结束-MSG:{0}...", buildRes.Result);
                     }
 
                     //2.遍历输出目录
